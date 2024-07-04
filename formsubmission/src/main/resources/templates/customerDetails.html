@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>View Customer Details</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>
+        Enter Customer Id
+    </h1>
+
+    <form action="#" th:action="@{/getdetails}"  method="post">
+        Customer ID : <input type="text" name="cid">
+        <input type="submit" value="viewCustomer"> 
+    </form>
+    
+</body>
+</html>
