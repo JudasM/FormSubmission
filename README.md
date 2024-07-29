@@ -1,3 +1,2 @@
 # Basic Form Submission
-
-# Springboot web app for form submission
+Springboot web app for form submission
